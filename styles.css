@@ -1,0 +1,94 @@
+/* First make all margin and padding 0 */
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #0B2447;
+    color: #ffffff;
+}
+
+/* Second work on image*/
+header img {
+    display: block;
+    height: 84px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+/* Changes the styling of links if necessary */
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Now start positioning the links and images 
+   according to your convinence */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.navigate_links {
+    list-style: none;
+}
+
+.navigate_links li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navigate_links li a {
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/* Add some transition to make navigation 
+   bar attractive */
+.navigate_links li a:hover {
+    color: #ffffff;
+    margin: 10px;
+    padding: 12px;
+    text-decoration: coral underline double;
+}
+
+
+/*-----------------*/
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the section takes the full height of the viewport */
+    background-color: #0B2447;
+    padding: 0; /* Remove padding so the image is centered */
+}
+
+.dk {
+    width: 100%; /* Ensure the image takes full width */
+    max-width: 1000px; /* Maintain the original width */
+    max-height: calc(100vh - 40px); /* Adjust height to fit within the viewport */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.courses-section{
+    background-color: #0B2447;
+    padding: 100px 0;
+}
+
+.footer{
+    background-color: #0B2447;
+    padding: 100px 0;
+
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+
+}
+
